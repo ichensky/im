@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement", "InventoryManagement\InventoryManagement.csproj", "{D377D8D7-240B-4041-8F09-474BC3B6EB20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E70DD8CF-F1B2-4CB7-9D8D-4B195559008B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|ARM.Build.0 = Debug|ARM
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|x64.ActiveCfg = Debug|x64
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|x64.Build.0 = Debug|x64
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|x64.Deploy.0 = Debug|x64
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|x86.ActiveCfg = Debug|x86
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|x86.Build.0 = Debug|x86
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Debug|x86.Deploy.0 = Debug|x86
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|ARM.ActiveCfg = Release|ARM
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|ARM.Build.0 = Release|ARM
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|ARM.Deploy.0 = Release|ARM
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|x64.ActiveCfg = Release|x64
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|x64.Build.0 = Release|x64
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|x64.Deploy.0 = Release|x64
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|x86.ActiveCfg = Release|x86
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|x86.Build.0 = Release|x86
+		{D377D8D7-240B-4041-8F09-474BC3B6EB20}.Release|x86.Deploy.0 = Release|x86
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|ARM.Build.0 = Debug|ARM
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|x64.ActiveCfg = Debug|x64
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|x64.Build.0 = Debug|x64
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|x86.ActiveCfg = Debug|x86
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Debug|x86.Build.0 = Debug|x86
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|ARM.ActiveCfg = Release|ARM
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|ARM.Build.0 = Release|ARM
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|x64.ActiveCfg = Release|x64
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|x64.Build.0 = Release|x64
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|x86.ActiveCfg = Release|x86
+		{CCD7F5F3-4CF1-4639-9A75-0E59E43C4CFA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JOHN-PC</Machine>
+    <WindowsUser>John</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>da4f8b3f-48f6-4c61-b81f-204bb1b085f2</PackageIdentityName>
+    <IntermediateOutputPath>D:\Projects\bitbucket\im\InventoryManagement\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>FC5AC5840619E8C4A0FE25781F5FA11CC6DD46F43CE3E6362577BCDB3C4C98DC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>da4f8b3f-48f6-4c61-b81f-204bb1b085f2_1.0.0.0_neutral__q7t26ytsbmf8c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>da4f8b3f-48f6-4c61-b81f-204bb1b085f2_q7t26ytsbmf8c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>da4f8b3f-48f6-4c61-b81f-204bb1b085f2</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=prash_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-20T22:22:24.668</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\InventoryManagement.exe">
+      <PackagePath>InventoryManagement.exe</PackagePath>
+      <Modified>2014-10-20T22:22:23.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\Controls\bin\Debug\Controls.dll">
+      <PackagePath>Controls.dll</PackagePath>
+      <Modified>2014-09-22T18:39:37.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2014-09-15T23:26:47.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2014-09-15T23:26:47.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\MvvmLightLibs.4.3.31.1\lib\netcore45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-09-15T23:26:47.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll">
+      <PackagePath>System.Reactive.Core.dll</PackagePath>
+      <Modified>2014-09-16T20:58:41.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll">
+      <PackagePath>System.Reactive.Interfaces.dll</PackagePath>
+      <Modified>2014-09-16T20:58:41.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll">
+      <PackagePath>System.Reactive.Linq.dll</PackagePath>
+      <Modified>2014-09-16T20:59:12.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\Rx-PlatformServices.2.2.5\lib\windows8\System.Reactive.PlatformServices.dll">
+      <PackagePath>System.Reactive.PlatformServices.dll</PackagePath>
+      <Modified>2014-09-16T21:03:45.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\Rx-XAML.2.2.5\lib\windows8\System.Reactive.Windows.Threading.dll">
+      <PackagePath>System.Reactive.Windows.Threading.dll</PackagePath>
+      <Modified>2014-09-16T21:04:06.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+      <Modified>2014-09-16T20:55:30.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\checkin1.jpg">
+      <PackagePath>Assets\checkin1.jpg</PackagePath>
+      <Modified>2014-09-15T23:23:08.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\checkout1.jpg">
+      <PackagePath>Assets\checkout1.jpg</PackagePath>
+      <Modified>2014-09-15T23:23:08.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\checkout2.jpg">
+      <PackagePath>Assets\checkout2.jpg</PackagePath>
+      <Modified>2014-09-15T23:23:08.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\manageemployee.jpg">
+      <PackagePath>Assets\manageemployee.jpg</PackagePath>
+      <Modified>2014-09-15T23:23:08.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\mediumtile-sdk.png">
+      <PackagePath>Assets\mediumtile-sdk.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\return2.png">
+      <PackagePath>Assets\return2.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\smalltile-Phone-sdk.png">
+      <PackagePath>Assets\smalltile-Phone-sdk.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\smalltile-Windows-sdk.png">
+      <PackagePath>Assets\smalltile-Windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-15T23:23:08.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\splash-Windows-sdk.png">
+      <PackagePath>Assets\splash-Windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-15T23:23:08.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\squaretile-sdk.png">
+      <PackagePath>Assets\squaretile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-15T23:23:08.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\storelogo-sdk.png">
+      <PackagePath>Assets\storelogo-sdk.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\tile-sdk.png">
+      <PackagePath>Assets\tile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-15T23:23:08.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\windows-sdk.png">
+      <PackagePath>Assets\windows-sdk.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\DataModel\Images\pump.png">
+      <PackagePath>DataModel\Images\pump.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\DataModel\Images\rotor.png">
+      <PackagePath>DataModel\Images\rotor.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-15T23:23:08.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2014-09-15T23:23:08.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-09-15T23:23:08.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-23T17:33:09.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Pages\CheckInPage.xbf">
+      <PackagePath>Pages\CheckInPage.xbf</PackagePath>
+      <Modified>2014-10-20T22:22:22.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Pages\ReturnPage.xbf">
+      <PackagePath>Pages\ReturnPage.xbf</PackagePath>
+      <Modified>2014-10-20T22:22:22.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2014-09-23T02:06:23.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\GroupedItemsPage.xbf">
+      <PackagePath>GroupedItemsPage.xbf</PackagePath>
+      <Modified>2014-09-17T21:10:07.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\GroupDetailPage.xbf">
+      <PackagePath>GroupDetailPage.xbf</PackagePath>
+      <Modified>2014-09-17T21:10:07.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Pages\CheckOutPage.xbf">
+      <PackagePath>Pages\CheckOutPage.xbf</PackagePath>
+      <Modified>2014-10-20T22:22:22.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\NotificationDialog.xbf">
+      <PackagePath>NotificationDialog.xbf</PackagePath>
+      <Modified>2014-10-01T22:33:06.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\ReviewCheckItem.xbf">
+      <PackagePath>ReviewCheckItem.xbf</PackagePath>
+      <Modified>2014-10-02T19:46:47.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\SettingsDialog.xbf">
+      <PackagePath>SettingsDialog.xbf</PackagePath>
+      <Modified>2014-09-30T20:10:49.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Styles\Styles.xbf">
+      <PackagePath>Styles\Styles.xbf</PackagePath>
+      <Modified>2014-09-17T23:31:19.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Views\ReturnGridItems.xbf">
+      <PackagePath>Views\ReturnGridItems.xbf</PackagePath>
+      <Modified>2014-10-20T22:22:22.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Views\CheckGridItems.xbf">
+      <PackagePath>Views\CheckGridItems.xbf</PackagePath>
+      <Modified>2014-10-20T22:22:22.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\Views\Settings.xbf">
+      <PackagePath>Views\Settings.xbf</PackagePath>
+      <Modified>2014-10-02T00:32:30.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\Controls\bin\Debug\Themes\Generic.xbf">
+      <PackagePath>Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-09-22T18:39:36.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\InventoryManagement.xr.xml">
+      <PackagePath>InventoryManagement.xr.xml</PackagePath>
+      <Modified>2014-10-20T22:18:57.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\Controls\bin\Debug\Controls.xr.xml">
+      <PackagePath>Controls\Controls.xr.xml</PackagePath>
+      <Modified>2014-09-16T22:14:18.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
+      <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
+      <Modified>2014-09-16T20:55:30.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-09-16T20:55:30.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\bitbucket\im\InventoryManagement\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-20T21:14:23.901</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\projects\bitbucket\im\controls\obj\debug\intermediatexaml\controls.dll" HashGuid="58014b33-569b-0d4a-ebf9-f92fa330d7f6" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-core.2.2.5\lib\windows8\system.reactive.core.dll" HashGuid="ec7f411f-44b1-aa5a-2e4a-567914f585df" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-interfaces.2.2.5\lib\windows8\system.reactive.interfaces.dll" HashGuid="2fd855ee-8440-f81f-a427-ceb8eb15ce8f" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-linq.2.2.5\lib\windows8\system.reactive.linq.dll" HashGuid="e9d27cf9-55fa-d3f2-4919-e5eb0cb815d8" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-platformservices.2.2.5\lib\windows8\system.reactive.platformservices.dll" HashGuid="12f6c441-fbed-72cf-36a7-e1ebcee7e082" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-xaml.2.2.5\lib\windows8\system.reactive.windows.threading.dll" HashGuid="a6813977-9c26-d745-c1c9-ab3eb32a71a3" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\winrtxamltoolkit.dll" HashGuid="a4cdc2c2-a01c-5ec1-da22-75d5d070a5d3" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

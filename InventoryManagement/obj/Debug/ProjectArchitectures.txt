@@ -1,0 +1,2 @@
+D:\Projects\bitbucket\im\Controls\Controls.csproj;neutral
+D:\Projects\bitbucket\im\InventoryManagement\InventoryManagement.csproj;neutral

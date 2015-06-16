@@ -1,0 +1,37 @@
+{"Groups":[
+  {
+    "UniqueId": "Inventory.CWS.ORG",
+    "Title": "Inventory App",
+    "Subtitle": "",
+    "ImagePath": "Assets/DarkGray.png",
+    "Description" : "",
+    "Items":
+    [
+      {
+        "UniqueId": "CheckOut",
+        "Title": "Check Out",
+        "Subtitle": "Check out an item",
+        "ImagePath": "Assets/checkout1.jpg",
+        "Description" : "Check out an item",
+        "Content" : "Check out an item"
+      },
+      {
+        "UniqueId": "CheckIn",
+        "Title": "Check In",
+        "Subtitle": "Check In an item",
+        "ImagePath": "Assets/checkin1.jpg",
+        "Description" : "Check in an item",
+        "Content" : "Check in an item"
+      },
+      {
+        "UniqueId": "ReturnItem",
+        "Title": "Return Item",
+        "Subtitle": "Return an Item",
+        "ImagePath": "Assets/return2.png",        
+        "Description" : "Return Item",
+        "Content" : "Return Item"
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,15 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\projects\bitbucket\im\inventorymanagement\obj\debug\intermediatexaml\inventorymanagement.exe" HashGuid="2f30b952-1b75-462d-5d32-643d75d092f1" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\controls\bin\debug\controls.dll" HashGuid="d0fe5859-2e08-4e45-7153-68678ec77387" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\galasoft.mvvmlight.extras.win8.dll" HashGuid="f1644a38-c628-2fde-5283-4e777988788a" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\galasoft.mvvmlight.win8.dll" HashGuid="0e89fba1-9317-cee7-b759-aaaceabef9d3" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\mvvmlightlibs.4.3.31.1\lib\netcore45\microsoft.practices.servicelocation.dll" HashGuid="d3a03fc5-3dbc-3307-e1a1-f478f8f2a94d" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-core.2.2.5\lib\windows8\system.reactive.core.dll" HashGuid="ec7f411f-44b1-aa5a-2e4a-567914f585df" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-interfaces.2.2.5\lib\windows8\system.reactive.interfaces.dll" HashGuid="2fd855ee-8440-f81f-a427-ceb8eb15ce8f" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-linq.2.2.5\lib\windows8\system.reactive.linq.dll" HashGuid="e9d27cf9-55fa-d3f2-4919-e5eb0cb815d8" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-platformservices.2.2.5\lib\windows8\system.reactive.platformservices.dll" HashGuid="12f6c441-fbed-72cf-36a7-e1ebcee7e082" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\rx-xaml.2.2.5\lib\windows8\system.reactive.windows.threading.dll" HashGuid="a6813977-9c26-d745-c1c9-ab3eb32a71a3" />
+    <ReferenceAssembly PathName="d:\projects\bitbucket\im\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\winrtxamltoolkit.dll" HashGuid="a4cdc2c2-a01c-5ec1-da22-75d5d070a5d3" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

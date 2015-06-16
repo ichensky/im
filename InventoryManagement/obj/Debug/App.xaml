@@ -1,0 +1,8 @@
+﻿<Application x:Class="InventoryManagement.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:InventoryManagement" xmlns:localData="using:InventoryManagement.Data">
+  <Application.Resources>
+    <!-- Application-specific resources -->
+    <x:String x:Key="AppName">InventoryManagement</x:String>
+    <vm:ViewModelLocator x:Key="Locator" xmlns:vm="using:InventoryManagement.ViewModel" />
+  </Application.Resources>
+</Application>
+

@@ -1,0 +1,121 @@
+﻿<UserControl x:Class="InventoryManagement.Views.CheckGridItems"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="using:InventoryManagement.Views"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:wt="using:WinRTXamlToolkit.Controls"
+             mc:Ignorable="d" x:Name="UserControl">
+    <UserControl.Resources>
+        <x:String x:Key="UnitCost">Unit Cost :</x:String>
+
+        <DataTemplate x:Key="DataTemplateCheck" x:Name="DataTemplateCheck" >
+            <Grid Width="{Binding ElementName=UserControl, Path=Width}" Height="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="260" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="200" />
+                </Grid.ColumnDefinitions>
+                <Border Margin="20, 0"
+                        BorderBrush="Gray"
+                        BorderThickness="0,0,1,0">
+                    <TextBlock VerticalAlignment="Center"
+                               DataContext="{Binding Source={StaticResource Locator},
+                                                     Path=CheckPage}"
+                               Text="{Binding CheckDateString,
+                                              Mode=OneWay}"
+                               TextWrapping="Wrap" />
+                </Border>
+
+
+                <StackPanel Orientation="Vertical" Grid.Column="1">
+                    <TextBlock Margin="0, 10, 0, 0"
+                               VerticalAlignment="Bottom"
+                               Text="{Binding ItemNumber}"
+                               TextWrapping="Wrap" />
+
+                    <StackPanel Margin="0, 10, 0, 0" Orientation="Horizontal" Visibility="{Binding Source={StaticResource Locator}, Path=CheckPage.CheckPageStateType.IsItemUnitCostVisible}" >
+                        <TextBlock VerticalAlignment="Center" Text="{StaticResource UnitCost}" Padding="0,0,5,0" />
+                        <TextBlock Text="{Binding UnitCost, Mode=TwoWay}" />
+                    </StackPanel>
+
+                    <TextBlock Margin="0, 10, 0, 0"
+                               VerticalAlignment="Top" 
+                               Text="{Binding Description}"
+                               TextWrapping="Wrap" />
+                    
+                    
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Visibility="{Binding Source={StaticResource Locator}, Path=CheckPage.CheckPageStateType.IsItemUnitCostNewVisible}" >
+                    <TextBlock VerticalAlignment="Center" Text="{StaticResource UnitCost}" Padding="0,0,5,0" />
+                    <wt:NumericUpDown 
+                                      VerticalAlignment="Center"
+                                      Maximum="999999999999"
+                                      IsReadOnly="{Binding Source={StaticResource Locator}, Path=CheckPage.CheckPageStateType.IsItemUnitCostNewReadOnly}"
+                                  Minimum="1"
+                                      SmallChange="1"
+                                      Value="{Binding UnitCost,
+                                                      Mode=TwoWay}" />
+                </StackPanel>
+                    
+                    
+                
+                
+
+                <Button x:Name="ButtonRemoveItem"
+                        Grid.Column="3"
+                        VerticalAlignment="Center"
+                        AutomationProperties.AutomationId="RemoveItemButton"
+                        AutomationProperties.ItemType="Remove Item Button"
+                        AutomationProperties.Name="RemoveItem"
+                        Click="ButtonRemoveItem_OnClick"
+                        Visibility="{Binding  CheckPageStateType.IsRemoveItemVisible, Mode=TwoWay}"
+                        DataContext="{Binding Source={StaticResource Locator},
+                                                     Path=CheckPage}"
+                        Content="Remove"
+                        Foreground="Red"
+                        Style="{StaticResource TextBlockButtonStyle}"
+                        Tag="{Binding ItemNumber}" />
+
+                <Grid Grid.Column="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <wt:NumericUpDown Grid.Column="1"
+                                      VerticalAlignment="Center"
+                                      Maximum="999999999999" IsReadOnly="{Binding Source={StaticResource Locator}, Path=CheckPage.CheckPageStateType.IsItemQuantityReadOnly}"
+                                      Minimum="1"
+                                      SmallChange="1"
+                                      Value="{Binding Quantity,
+                                                      Mode=TwoWay}" />
+
+                </Grid>
+            </Grid>
+        </DataTemplate>
+
+    </UserControl.Resources>
+
+    <Grid>
+        
+        <ListView x:Name="ListViewInvetoryItems"
+                  VerticalAlignment="Stretch"
+                  Background="White"
+                  BorderBrush="Gray"
+                  BorderThickness="1"
+                  IsItemClickEnabled="True"
+                  ItemTemplate="{StaticResource DataTemplateCheck}"
+                  ItemsSource="{Binding Items,
+                                        Mode=TwoWay}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  SelectionMode="Single"
+                  ShowsScrollingPlaceholders="False" />
+    </Grid>
+</UserControl>

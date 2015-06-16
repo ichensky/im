@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="InventoryManagement.Views.ReturnGridItems"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="using:InventoryManagement.Views"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:wt="using:WinRTXamlToolkit.Controls"
+             mc:Ignorable="d" x:Name="UserControl">
+    <UserControl.Resources>
+        <x:String x:Key="QuantityCheckout">Quantity Checkout :</x:String>
+        <x:String x:Key="QuantityReturned">Quantity Returned :</x:String>
+
+        <DataTemplate x:Key="DataTemplateCheck" x:Name="DataTemplateCheck" >
+            <Grid Width="{Binding ElementName=UserControl, Path=Width}" Height="100" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="200" />
+                </Grid.ColumnDefinitions>
+                <!--<Border Margin="20, 0"
+                        BorderBrush="Gray"
+                        BorderThickness="0,0,1,0">
+                    <TextBlock VerticalAlignment="Center"
+                               DataContext="{Binding Source={StaticResource Locator},
+                                                     Path=ReturnPage}"
+                               Text="{Binding CheckDateString,
+                                              Mode=OneWay}"
+                               TextWrapping="Wrap" />
+                </Border>-->
+                
+                
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0"
+                               VerticalAlignment="Bottom"
+                               Text="{Binding Item}"
+                               TextWrapping="Wrap" />
+                    <StackPanel Orientation="Horizontal" Grid.Row="1">
+                        <TextBlock VerticalAlignment="Center" Text="{StaticResource QuantityCheckout}" Padding="0,0,5,0" />
+                        <TextBlock VerticalAlignment="Center" 
+                                   Text="{Binding QuantityCheckedOut}"
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="2">
+                        <TextBlock VerticalAlignment="Center" Text="{StaticResource QuantityReturned}" Padding="0,0,5,0" />
+                        <TextBlock VerticalAlignment="Center" 
+                                   Text="{Binding QuantityReturned}"
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                    <TextBlock Grid.Row="3" 
+                               VerticalAlignment="Top" 
+                               Text="{Binding Description}"
+                               TextWrapping="Wrap" />
+                </Grid>
+                
+                <Button x:Name="ButtonRemoveItem"
+                        Grid.Column="3"
+                        VerticalAlignment="Center"
+                        AutomationProperties.AutomationId="RemoveItemButton"
+                        AutomationProperties.ItemType="Remove Item Button"
+                        AutomationProperties.Name="RemoveItem"
+                        Click="ButtonRemoveItem_OnClick"
+                        DataContext="{Binding Source={StaticResource Locator},
+                                                     Path=ReturnPage}"
+                        Content="Remove"
+                        Foreground="Red"
+                        Style="{StaticResource TextBlockButtonStyle}"
+                        Tag="{Binding ItemNumber}" />
+
+                <Grid Grid.Column="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <wt:NumericUpDown Grid.Column="1"
+                                      VerticalAlignment="Center"
+                                      Maximum="999999999999"
+                                      Minimum="1"
+                                      SmallChange="1"
+                                      Value="{Binding Quantity,
+                                                      Mode=TwoWay}" />
+
+                </Grid>
+            </Grid>
+        </DataTemplate>
+
+    </UserControl.Resources>
+
+    <Grid>
+        
+        <ListView x:Name="ListViewInvetoryItems"
+                  VerticalAlignment="Stretch"
+                  Background="White"
+                  BorderBrush="Gray"
+                  BorderThickness="1"
+                  IsItemClickEnabled="True"
+                  ItemTemplate="{StaticResource DataTemplateCheck}"
+                  ItemsSource="{Binding Items,
+                                        Mode=TwoWay}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  SelectionMode="Single"
+                  ShowsScrollingPlaceholders="False" />
+    </Grid>
+</UserControl>
